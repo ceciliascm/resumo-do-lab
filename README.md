@@ -17,6 +17,7 @@ Tipos de depesas (CapEx & OpEx):
 - Despesas operacionais(Opex): gasto realizado com produtos e serviços operacionais caso necessário, sendo cobrado imediatamente.
 
 Benefícios da nuvem:
+-
 - Alta disponibilidade: possui o SLA, uma porcentagem de tempo definida para ficar fora do ar, dependendo do pacote. Esse tempo é um período curto de horas e caso passe do tempo demilitado, a Microsoft recompensa o usuário através de um voucher.
   
 - Escalabilidade: escalabilidade é a capacidade de ajustar recursos para atender a demanda. Com isso em mente, se a demanda cair, você poderá reduzir seus custos, pagando apenas pelo o que usa. Também é considerado uma escala vertical.
@@ -32,4 +33,25 @@ Benefícios da nuvem:
 - Governança: Sinaliza qualquer recurso que esteja fora do normal, de acordo com os modelos de regra específicas de cada empresa, gerando uma nuvem atualizada, protegida e bem gerenciada.
 
 - Gerenciabilidade: Ofere a oportunidade do cliente gerenciar seus recursos em nuvem, criando modelos pré-configurados, por exemplo: escalar automaticamente a implantação de recursos de acordo com a necessidade, seja m portal da web, uma interface de linha de comando, etc.
+
+Tipos de serviço em nuvem: IaaS, PaaS, SaaS.
+-
+-  IaaS(Infraestrutura como serviço): Sendo o mais utilizado, os clientes possuem o maior acesso comparado aos outros dois tipos de serviço(configuração, monitoramento, backup, etc). Os serviços são: Servidores e Armazenamento, Firewall e Segurança de rede, Planta física e Edifício do datacenter. Possui mais acesso ao recurso final, além de que o cliente tem sempre que validar e monitorar o que está acontecendo, dando consequência em uma maior liberdade para o mesmo.
+-  PaaS(plataforma como serviço): Abrangendo todo o campo do serviço anterior, também inclui novos como sistemas operacionais, ferramentas de desenvolvedores e análise de negócios de gerenciamento de database. Se preocupa principalmente com a aplicação, fornecendo um ambiente de criação para testes, no intuito de implantar as aplicações de software sem se preocupar com o gerenciamento.
+-  SaaS(Software como serviço): Abrangendo os outros dois, agora também inclui aplicativos e apps hospedados, como por exemplo, o Micrososft Teams. Nesse caso a aplicação já está pronta e o que determina o tamaho de recursos que o cliente pode utilizar da aplicação é o licenciamento.
+
+Modelo de responsabilidade compartilhada:
+-
+  - No local: tudo é reponsabilidade do cliente.
+  - Em hosts físicos, Rede física e Datacenter físico: Tudo é responsabilidade dos provedores de nuvem(Microsoft) nos três tipos de serviço.
+  - Em infraestrutura e identidade de diretório, Aplicativos e Controles de rede: A responsabilidade varia conforme o tipo, indo de clientes para IaaS até em sua maioria provedores de nuvem na SaaS.
+  - Informações de dados, Dispositivos(móveis e PC) e contas e identidades: Sempre responsabilidade do cliente.
+  
+
+
+
+
+
+
+
 
